@@ -3,16 +3,15 @@ import { Component } from '@angular/core';
 import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-navbar',
-  templateUrl: './navbar.component.html',
-  styleUrls: ['./navbar.component.scss']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.scss']
 })
-export class NavbarComponent {
-
+export class LoginComponent {
   closeResult = '';
 
 	constructor(private modalService: NgbModal) {}
-  
+
 	open(content:any) {
 		this.modalService.open(content, { ariaLabelledBy: 'modal-basic-title' }).result.then(
 			(result) => {

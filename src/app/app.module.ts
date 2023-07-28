@@ -7,6 +7,10 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { PlanesInformativosComponent } from './planes-informativos/planes-informativos.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { LoginComponent } from './login/login.component';
+import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
+import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
 
 @NgModule({
   declarations: [
@@ -14,11 +18,15 @@ import { LandingPageComponent } from './landing-page/landing-page.component';
     NavbarComponent,
     HomeComponent,
     PlanesInformativosComponent,
-    LandingPageComponent
+    LandingPageComponent,
+    LoginComponent,
+    RecuperarContrasenaComponent,
+    CrearCuentaComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

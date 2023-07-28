@@ -13,7 +13,7 @@ img {
 img:hover {
     cursor: pointer;
 }
-button {
+#btn-inicio {
     border: none;
     padding: 10px 9px;
     margin-right: 5%;
@@ -23,10 +23,26 @@ button {
     background: #CACACA;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-button:hover {
+#btn-inicio:hover {
     cursor: pointer;
 }
-button:active {
+#btn-inicio:active {
     background-color: #b3b1b1;
     transform: translateY(2px);
+}
+#btn-modal {
+    border: none;
+    background-color: white;
+    font-size: 1.2rem;
+    width: 100%;
+    text-align: right;
+    padding: 15px 15px 0 0;
+}
+.modal-title {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+}
+.contenedor-modal {
+    height: 630px;
 }
