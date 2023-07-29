@@ -5,7 +5,7 @@
 		<label>Contraseña</label>
 		<input type="password" placeholder="Ingrese su contraseña">
 	</div>
-    <button id="btn-acceder">Acceder</button>
+    <button id="btn-acceder" [routerLink]="'/vista_Proyecto'" >Acceder</button>
     <p class="cursor espacio sobre" id="iniciar-sesion">Iniciar sesión con <i id="facebook" class="fa-brands fa-facebook"></i></p>
     <a class="cursor espacio sobre" (click)="open(contentContrasena)">Olvidé mi contraseña</a>
     <a class="cursor espacio sobre" (click)="open(contentCuenta)">Crear cuenta</a>
@@ -19,6 +19,7 @@
 			<div class="mb-3">
 				<app-recuperar-contrasena></app-recuperar-contrasena>
 			</div>
+			<button type="button" id="btn-modal" (click)="modal.dismiss('Cross click')"><i class="fa-regular fa-circle-xmark"></i></button>
 		</div>
 	</div>
 </ng-template>

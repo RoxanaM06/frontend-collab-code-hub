@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
-import { ModalDismissReasons, NgbModal } from '@ng-bootstrap/ng-bootstrap';
+import { ModalDismissReasons, NgbModal , NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
+
 
 @Component({
   selector: 'app-login',
@@ -32,4 +33,6 @@ export class LoginComponent {
 			return `with: ${reason}`;
 		}
 	}
+
+
 }

@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { PlanesInformativosComponent } from './planes-informativos/planes-informativos.component';
 import { LandingPageComponent } from './landing-page/landing-page.component';
+import { VistaProyectoComponent } from './vista-proyecto/vista-proyecto.component';
 
 const routes: Routes = [
   {
@@ -20,6 +21,10 @@ const routes: Routes = [
   {
     path: "planes",
     component: PlanesInformativosComponent
+  },
+  {
+    path: "vista_Proyecto",
+    component: VistaProyectoComponent
   }
 ];
 
