@@ -15,6 +15,7 @@ import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
 import { VistaProyectoComponent } from './vista-proyecto/vista-proyecto.component';
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { CarpetaProyectosComponent } from './carpeta-proyectos/carpeta-proyectos.component';
+import { CambiarPlanComponent } from './cambiar-plan/cambiar-plan.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { CarpetaProyectosComponent } from './carpeta-proyectos/carpeta-proyectos
     CrearCuentaComponent,
     VistaProyectoComponent,
     Navbar2Component,
-    CarpetaProyectosComponent
+    CarpetaProyectosComponent,
+    CambiarPlanComponent
   ],
   imports: [
     BrowserModule,
