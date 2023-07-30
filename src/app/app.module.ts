@@ -16,6 +16,7 @@ import { VistaProyectoComponent } from './vista-proyecto/vista-proyecto.componen
 import { Navbar2Component } from './navbar2/navbar2.component';
 import { CarpetaProyectosComponent } from './carpeta-proyectos/carpeta-proyectos.component';
 import { CambiarPlanComponent } from './cambiar-plan/cambiar-plan.component';
+import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { CambiarPlanComponent } from './cambiar-plan/cambiar-plan.component';
     VistaProyectoComponent,
     Navbar2Component,
     CarpetaProyectosComponent,
-    CambiarPlanComponent
+    CambiarPlanComponent,
+    PerfilUsuarioComponent
   ],
   imports: [
     BrowserModule,

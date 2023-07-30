@@ -1,6 +1,21 @@
 <nav>
     <img src="../../assets/logo-collab.png" alt="logo-collab" [routerLink]="'/home'">
-    <p id="nombre_Usuario" type=""><fa-icon [icon]="faUser"></fa-icon>  Usuario generico</p>
+    
+    <div class="row">
+        <div class="col">
+            <div ngbDropdown class="d-inline-block">
+                <button type="button" class="btn btn-outline-primary" id="dropdownBasic1" ngbDropdownToggle>
+                    <i class="fa-solid fa-user"></i>
+                     Usuario Generico
+                </button>
+                <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+                    <button ngbDropdownItem [routerLink]="'/perfil_Usuario'"><i class="fa-regular fa-user"></i> Ver Perfil</button>
+                    <button ngbDropdownItem [routerLink]="'/home'"><i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesión</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
 </nav>
 
 
