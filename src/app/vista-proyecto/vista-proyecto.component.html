@@ -1,0 +1,44 @@
+<app-navbar2></app-navbar2>
+
+<div id="columna_Menu" class="container-flex">
+    <div class="row">
+      <div id="menu_Usuario" class="col-2">
+        <div id="barras" class="row" >
+
+            <i class="fa-solid fa-bars"></i>
+
+        </div>
+        
+
+        <div class="container-flex">
+            <div id="filaMenu" class="row">
+                <div  class="col-12">
+                    <i class="fa-solid fa-house"></i>
+                    Pagina Principal
+
+                </div>
+            </div>
+            <div id="filaMenu" class="row">
+                <div  class="col-12">
+                    <i class="fa-solid fa-plus"></i>
+                    Crear Proyecto
+
+                </div>
+            </div>
+        </div>
+
+      </div>
+
+      <div class="col-10">
+        
+            
+
+                <app-carpeta-proyectos  [routerLink]="'/crearEditarProyecto'"></app-carpeta-proyectos>
+                
+                
+
+        
+      </div>
+      
+    </div>
+  </div>

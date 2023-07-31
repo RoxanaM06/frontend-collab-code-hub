@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import  {  FontAwesomeModule  }  from  '@fortawesome/angular-fontawesome' ;
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -11,6 +12,14 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { LoginComponent } from './login/login.component';
 import { RecuperarContrasenaComponent } from './recuperar-contrasena/recuperar-contrasena.component';
 import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
+import { VistaProyectoComponent } from './vista-proyecto/vista-proyecto.component';
+import { Navbar2Component } from './navbar2/navbar2.component';
+import { CarpetaProyectosComponent } from './carpeta-proyectos/carpeta-proyectos.component';
+import { CambiarPlanComponent } from './cambiar-plan/cambiar-plan.component';
+import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
+import { Navbar3Component } from './navbar3/navbar3.component';
+import { CrearEditarProyectoComponent } from './crear-editar-proyecto/crear-editar-proyecto.component';
+import { Navbar4Component } from './navbar4/navbar4.component';
 
 @NgModule({
   declarations: [
@@ -21,12 +30,21 @@ import { CrearCuentaComponent } from './crear-cuenta/crear-cuenta.component';
     LandingPageComponent,
     LoginComponent,
     RecuperarContrasenaComponent,
-    CrearCuentaComponent
+    CrearCuentaComponent,
+    VistaProyectoComponent,
+    Navbar2Component,
+    CarpetaProyectosComponent,
+    CambiarPlanComponent,
+    PerfilUsuarioComponent,
+    Navbar3Component,
+    CrearEditarProyectoComponent,
+    Navbar4Component
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]
