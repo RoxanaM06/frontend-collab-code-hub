@@ -29,10 +29,10 @@
 
       </div>
 
-      <div class="col-10">
+      <div class="col-10" style="display: grid; grid-template-columns: 1fr 1fr 1fr 1fr 1fr; grid-template-rows: 1fr 1fr 1fr 1fr;">
 
-            <app-carpeta-proyectos class="cursor"  [routerLink]="'/crearEditarProyecto'"></app-carpeta-proyectos>
-            
+            <app-carpeta-proyectos class="cursor"  [routerLink]="'/crearEditarProyecto'" [numeroProyecto]="1"></app-carpeta-proyectos>
+            <app-carpeta-proyectos class="cursor"  [routerLink]="'/crearEditarProyecto'" [numeroProyecto]="2"></app-carpeta-proyectos>
       </div>
       
     </div>

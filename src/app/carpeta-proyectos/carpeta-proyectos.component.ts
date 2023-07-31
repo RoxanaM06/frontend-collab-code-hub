@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-carpeta-proyectos',
@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./carpeta-proyectos.component.scss']
 })
 export class CarpetaProyectosComponent {
-
+  @Input() numeroProyecto:any;
 }
