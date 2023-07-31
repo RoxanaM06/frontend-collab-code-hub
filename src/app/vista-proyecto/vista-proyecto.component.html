@@ -12,16 +12,16 @@
 
         <div class="container-flex">
             <div id="filaMenu" class="row">
-                <div  class="col-12">
-                    <i class="fa-solid fa-house"></i>
-                    Pagina Principal
-
+                <div  class="col-12" [routerLink]="'/home'">
+                    <p class="cursor"><i class="fa-solid fa-house"></i> Pagina Principal</p>
                 </div>
             </div>
             <div id="filaMenu" class="row">
                 <div  class="col-12">
-                    <i class="fa-solid fa-plus"></i>
-                    Crear Proyecto
+                    <p class="cursor" [routerLink]="'/crearEditarProyecto'">
+                        <i class="fa-solid fa-plus"></i>
+                        Crear Proyecto
+                    </p>
 
                 </div>
             </div>
@@ -30,14 +30,9 @@
       </div>
 
       <div class="col-10">
-        
+
+            <app-carpeta-proyectos class="cursor"  [routerLink]="'/crearEditarProyecto'"></app-carpeta-proyectos>
             
-
-                <app-carpeta-proyectos  [routerLink]="'/crearEditarProyecto'"></app-carpeta-proyectos>
-                
-                
-
-        
       </div>
       
     </div>

@@ -1,10 +1,9 @@
 #vista_Datos{
     font-size: 19px;
 
-
 }
 
-#perfil_datos{
+.perfil_datos{
     justify-content: center;
     flex-direction: column;
     align-items: center;
@@ -15,9 +14,8 @@
 #perfil_info{
     justify-content: center;
     display: block;
-    padding: 5rem;
-    
-
+    // padding: 2rem;
+    padding: 0;
 }
 input {
     border-radius: 25px;
@@ -32,10 +30,9 @@ input {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
     margin: auto;
     width: 60%;
-    padding-top: 1rem;
+    padding-top: 5%;
 }
 #btn-cambiarDatos {
     border-radius: 10px;
@@ -46,10 +43,21 @@ input {
     margin: 25px;
 }
 label{
-    padding: 3rem;
-
+    padding: 1.3rem;
+    font-size: 1.7rem;
 }
 #datosPlan{
-    padding: 3rem;
+    padding: 1.5rem;
     font-size: 25px;
+    margin-right: 0;
+}
+.row {
+    margin: 0;
+}
+p {
+    text-align: center;
+}
+#boton-cambiar-datos {
+    display: flex;
+    justify-content: center;
 }

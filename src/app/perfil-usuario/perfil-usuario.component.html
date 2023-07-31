@@ -1,64 +1,45 @@
 <app-navbar3></app-navbar3>
 <div class="container-flex" id="vista_Datos">
     <div class="row">
+
       <div class="col-6" id="perfil_datos" style="display:grid;" >
 
-
-        
-        
             <div class="row">
                 <div class="col-12" id="perfil_datos" >
-                    Información de la cuenta
-                </div>
-            </div>
+                    
+                    <div id="login">
+                        <div id="formulario">
 
+                            <h3>Información de la cuenta</h3>
+    
+                            <div class="perfil_datos" >
+                                <label>Nombre de Usuario</label>
+                            </div>
+    
+                            <div class="perfil_datos" >
+                                <input type="text" placeholder="Usuario Generico">
+                            </div>
         
-        
-
-            <div id="login">
-                <div id="formulario">
-
-
-
-                    <div class="row">
-                        <div class="col-12" id="perfil_datos" >
-                            <label>Nombre de Usuario</label>
+                            <div class="perfil_datos" >
+                                <label>Correo Electronico</label>
+                            </div>
+    
+                            <div class="perfil_datos" >
+                                <input type="password" placeholder="Correo@correo.com">
+                            </div>
+                        
+                            <div class="perfil_datos" >
+                                <label>Contraseña</label>
+                            </div>
+                        
+                            <div class="perfil_datos" >
+                                <input type="password" placeholder="abcd1234">
+                            </div>
+                        
                         </div>
+                        <button id="btn-cambiarDatos" [routerLink]="'/home'" >Cambiar Datos</button>
                     </div>
-
-
-                    <div class="row">
-                        <div class="col-12" id="perfil_datos" >
-                            <input type="text" placeholder="Usuario Generico">
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12" id="perfil_datos" >
-                            <label>Correo Electronico</label>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col-12" id="perfil_datos" >
-                            <input type="password" placeholder="Correo@correo.com">
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-12" id="perfil_datos" >
-                            <label>Contraseña</label>
-                        </div>
-                    </div>
-                    
-                    <div class="row">
-                        <div class="col-12" id="perfil_datos" >
-                            <input type="password" placeholder="abcd1234">
-                        </div>
-                    </div>
-                    
                 </div>
-                <button id="btn-cambiarDatos" [routerLink]="'/home'" >Cambiar Datos</button>
             </div>
 
 
@@ -69,30 +50,29 @@
         
         <div class="row" id="datosPlan">
             <div class="col-12" id="perfil_datos" >
-                Plan Actual: Gratis
+                <p>Plan Actual: Gratis</p>
             </div>
         </div>
 
         <div class="row" id="datosPlan">
             <div class="col-12" id="perfil_datos" >
-                Proyectos Disponibles
+                <p>Proyectos Disponibles: 2</p>
             </div>
         </div>
 
         <div class="row" id="datosPlan">
             <div class="col-12" id="perfil_datos" >
-                Fecha de Renovación: 30/07/2023
+                <p>Fecha de Renovación: 30/07/2023</p>
             </div>
         </div>
-        <button id="btn-cambiarDatos" [routerLink]="'/cambiarPlan'" >Cambiar Plan</button>
+        <div class="row" id="datosPlan">
+            <div class="col-12" id="boton-cambiar-datos">
+                <button id="btn-cambiarDatos" [routerLink]="'/cambiarPlan'" >Cambiar Plan</button>
+            </div>
+        </div>
+        
 
       </div>
-
-
-
-
-
-
 
 
     </div>
