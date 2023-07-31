@@ -5,6 +5,8 @@ import { PlanesInformativosComponent } from './planes-informativos/planes-inform
 import { LandingPageComponent } from './landing-page/landing-page.component';
 import { VistaProyectoComponent } from './vista-proyecto/vista-proyecto.component';
 import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
+import { CrearEditarProyectoComponent } from './crear-editar-proyecto/crear-editar-proyecto.component';
+import { CambiarPlanComponent } from './cambiar-plan/cambiar-plan.component';
 
 const routes: Routes = [
   {
@@ -30,6 +32,14 @@ const routes: Routes = [
   {
     path: "perfil_Usuario",
     component: PerfilUsuarioComponent
+  },
+  {
+    path: "crearEditarProyecto",
+    component: CrearEditarProyectoComponent
+  },
+  {
+    path: "cambiarPlan",
+    component: CambiarPlanComponent
   }
 ];
 

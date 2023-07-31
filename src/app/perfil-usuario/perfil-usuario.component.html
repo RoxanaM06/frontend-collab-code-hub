@@ -1,1 +1,99 @@
-<p>perfil-usuario works!</p>
+<app-navbar3></app-navbar3>
+<div class="container-flex" id="vista_Datos">
+    <div class="row">
+      <div class="col-6" id="perfil_datos" style="display:grid;" >
+
+
+        
+        
+            <div class="row">
+                <div class="col-12" id="perfil_datos" >
+                    Información de la cuenta
+                </div>
+            </div>
+
+        
+        
+
+            <div id="login">
+                <div id="formulario">
+
+
+
+                    <div class="row">
+                        <div class="col-12" id="perfil_datos" >
+                            <label>Nombre de Usuario</label>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-12" id="perfil_datos" >
+                            <input type="text" placeholder="Usuario Generico">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12" id="perfil_datos" >
+                            <label>Correo Electronico</label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12" id="perfil_datos" >
+                            <input type="password" placeholder="Correo@correo.com">
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12" id="perfil_datos" >
+                            <label>Contraseña</label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-12" id="perfil_datos" >
+                            <input type="password" placeholder="abcd1234">
+                        </div>
+                    </div>
+                    
+                </div>
+                <button id="btn-cambiarDatos" [routerLink]="'/home'" >Cambiar Datos</button>
+            </div>
+
+
+      </div>
+
+
+      <div class="col-6" id="perfil_info">
+        
+        <div class="row" id="datosPlan">
+            <div class="col-12" id="perfil_datos" >
+                Plan Actual: Gratis
+            </div>
+        </div>
+
+        <div class="row" id="datosPlan">
+            <div class="col-12" id="perfil_datos" >
+                Proyectos Disponibles
+            </div>
+        </div>
+
+        <div class="row" id="datosPlan">
+            <div class="col-12" id="perfil_datos" >
+                Fecha de Renovación: 30/07/2023
+            </div>
+        </div>
+        <button id="btn-cambiarDatos" [routerLink]="'/cambiarPlan'" >Cambiar Plan</button>
+
+      </div>
+
+
+
+
+
+
+
+
+    </div>
+</div>

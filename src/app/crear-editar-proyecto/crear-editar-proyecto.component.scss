@@ -1,0 +1,50 @@
+#menu_Usuario{
+    height: 100vh;
+    background-color: #5cceee;
+    justify-content: center;
+    
+    
+
+}
+#columna_Menu{
+    justify-content: center;
+    
+}
+#filaMenu{
+    padding-top: 1rem;
+    justify-content: center;
+    padding-left: 0.5rem;
+
+}
+#barras{
+    padding-left: 0.5rem;
+}
+input {
+    border-radius: 25px;
+    background: #D9D9D9;
+    border: none;
+    height: 30px;
+    width: auto;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+#cuadroHTML{
+    background-color: #D9D9D9;
+    border: 1px solid black;
+
+}
+#cuadroCSS{
+    background-color: #D9D9D9;
+    border: 1px solid black;
+}
+#cuadroJavaScript{
+    background-color: #D9D9D9;
+    border: 1px solid black;
+}
+#cuadroResultado{
+    background-color: #D9D9D9;
+    border: 1px solid black;
+}
+#contenedorCuadros{
+    height: 85vh;
+}
